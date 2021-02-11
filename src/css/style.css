@@ -80,6 +80,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
   line-height: 28px;
   border-radius: 4px; }
 
+.white {
+  color: #fff; }
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px; }
+
 h1 {
   font-family: "Poppins", sans-serif;
   font-size: 70px;
@@ -87,6 +94,13 @@ h1 {
   font-weight: 800;
   color: #fff;
   width: 500px; }
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  line-height: 55px;
+  font-weight: 600;
+  text-transform: uppercase; }
 
 .header .header-top {
   display: -webkit-box;
@@ -144,10 +158,10 @@ h1 {
       margin-right: 70px; }
     .header .header-top .header-right .social {
       margin: auto 0; }
-      .header .header-top .header-right .social img {
+      .header .header-top .header-right .social a {
         display: inline-block;
         margin-left: 20px; }
-        .header .header-top .header-right .social img:first-child {
+        .header .header-top .header-right .social a:first-child {
           margin-left: 0; }
 
 .header .header-bottom {
@@ -355,3 +369,123 @@ h1 {
       width: 270px; }
     .header .header-bottom .header-bottom-wrap span {
       font-size: 16px; } }
+
+.sessions {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  .sessions .session-left,
+  .sessions .session-right {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-basis: 50%;
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%;
+    text-align: -webkit-center; }
+    .sessions .session-left .session-wrap,
+    .sessions .session-right .session-wrap {
+      margin: 80px auto 100px; }
+      .sessions .session-left .session-wrap .session-head img,
+      .sessions .session-right .session-wrap .session-head img {
+        height: auto; }
+      .sessions .session-left .session-wrap .session-head h3,
+      .sessions .session-right .session-wrap .session-head h3 {
+        margin: 20px auto 30px; }
+      .sessions .session-left .session-wrap .session-list,
+      .sessions .session-right .session-wrap .session-list {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        text-align: left;
+        border-bottom: 1px solid #4e4e4e;
+        margin-bottom: 38px; }
+        .sessions .session-left .session-wrap .session-list span,
+        .sessions .session-right .session-wrap .session-list span {
+          font-family: "Poppins", sans-serif;
+          font-size: 80px;
+          font-weight: 800;
+          color: #4e4e4e;
+          width: 41px;
+          text-align: center;
+          line-height: 65px; }
+        .sessions .session-left .session-wrap .session-list p,
+        .sessions .session-right .session-wrap .session-list p {
+          line-height: 32px;
+          -webkit-align-self: center;
+              -ms-flex-item-align: center;
+                  align-self: center;
+          padding-left: 53px;
+          width: 390px; }
+      .sessions .session-left .session-wrap .btn,
+      .sessions .session-right .session-wrap .btn {
+        margin-top: 80px; }
+  .sessions .session-left {
+    background: #000; }
+  .sessions .session-right {
+    background: #f6f6f6; }
+
+@media only screen and (max-width: 1000px) {
+  .sessions {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+    .sessions .session-left,
+    .sessions .session-right {
+      -webkit-flex-basis: 100%;
+          -ms-flex-preferred-size: 100%;
+              flex-basis: 100%;
+      -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s; } }
+
+@media only screen and (max-width: 550px) {
+  .sessions .session-left .session-wrap,
+  .sessions .session-right .session-wrap {
+    margin: 80px 0 100px 20px; } }
+
+@media only screen and (max-width: 500px) {
+  .sessions .session-left .session-wrap,
+  .sessions .session-right .session-wrap {
+    margin: 80px 0 100px 20px; }
+    .sessions .session-left .session-wrap .session-head h3,
+    .sessions .session-right .session-wrap .session-head h3 {
+      font-size: 25px;
+      margin: 20px 0 30px;
+      -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s; }
+    .sessions .session-left .session-wrap .session-list p,
+    .sessions .session-right .session-wrap .session-list p {
+      width: 330px; } }
+
+@media only screen and (max-width: 450px) {
+  .sessions .session-left .session-wrap,
+  .sessions .session-right .session-wrap {
+    margin: 50px auto;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s; }
+    .sessions .session-left .session-wrap .session-list,
+    .sessions .session-right .session-wrap .session-list {
+      margin-bottom: 25px;
+      -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s; }
+      .sessions .session-left .session-wrap .session-list span,
+      .sessions .session-right .session-wrap .session-list span {
+        font-size: 60px; }
+      .sessions .session-left .session-wrap .session-list p,
+      .sessions .session-right .session-wrap .session-list p {
+        width: 100%;
+        font-size: 15px; }
+    .sessions .session-left .session-wrap .btn,
+    .sessions .session-right .session-wrap .btn {
+      margin-top: 50px;
+      -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s; } }
