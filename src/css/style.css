@@ -71,7 +71,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 16px 35px;
+  padding: 9px 35px;
   background-color: #ff3c2d;
   color: #fff;
   border: none;
@@ -94,6 +94,12 @@ h1 {
   font-weight: 800;
   color: #fff;
   width: 500px; }
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  line-height: 55px;
+  font-weight: 600; }
 
 h3 {
   font-family: "Poppins", sans-serif;
@@ -489,3 +495,116 @@ h3 {
       -webkit-transition: all 0.3s;
       -o-transition: all 0.3s;
       transition: all 0.3s; } }
+
+.maps {
+  height: 100%;
+  width: 80%;
+  padding: 160px 0 160px 180px;
+  z-index: 0; }
+  .maps .maps-wrap .maps-block {
+    position: relative;
+    z-index: 1;
+    width: 700px;
+    padding: 50px;
+    background: gray;
+    height: 250px;
+    color: #000;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5); }
+    .maps .maps-wrap .maps-block h2 {
+      margin-bottom: 18px; }
+    .maps .maps-wrap .maps-block p {
+      margin-bottom: 30px; }
+    .maps .maps-wrap .maps-block form {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex; }
+      .maps .maps-wrap .maps-block form input {
+        width: 200px;
+        height: 45px;
+        border: none;
+        border-radius: 4px 0 0 4px;
+        padding: 5px;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+        font-size: 18px; }
+      .maps .maps-wrap .maps-block form .btn {
+        border-radius: 0 4px 4px 0; }
+
+@media only screen and (max-width: 1000px) {
+  .maps {
+    padding: 5% 0 5% 15%;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s; }
+    .maps .maps-wrap .maps-block {
+      width: 90%; }
+      .maps .maps-wrap .maps-block h2 {
+        font-size: 40px;
+        -webkit-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s; } }
+
+@media only screen and (max-width: 660px) {
+  .maps .maps-wrap .maps-block {
+    height: 290px;
+    padding-top: 25px; }
+    .maps .maps-wrap .maps-block h2 {
+      font-size: 35px;
+      -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s; }
+    .maps .maps-wrap .maps-block form {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+      .maps .maps-wrap .maps-block form input {
+        -webkit-flex-basis: 100%;
+            -ms-flex-preferred-size: 100%;
+                flex-basis: 100%;
+        width: 100%;
+        border-radius: 4px 4px 0 0; }
+      .maps .maps-wrap .maps-block form .btn {
+        padding: 9px;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        border-radius: 0 0 4px 4px;
+        -webkit-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s; } }
+
+@media only screen and (max-width: 660px) {
+  .maps .maps-wrap .maps-block {
+    text-align: center;
+    padding: 25px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s; }
+    .maps .maps-wrap .maps-block h2 {
+      font-size: 30px;
+      -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s; } }
+
+@media only screen and (max-width: 460px) {
+  .maps {
+    padding-left: 12%;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s; }
+    .maps .maps-wrap {
+      min-width: 280px;
+      -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s; }
+      .maps .maps-wrap .maps-block h2 {
+        font-size: 25px;
+        line-height: 35px; } }

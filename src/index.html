@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Photo studio</title>
     <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <script src="js/main.js"></script>
+    
   </head>
   <body>
     <div class="container">
@@ -89,6 +89,22 @@
           </div>
         </div>
       </div>
+
+      <div class="maps">
+        <div class="maps-wrap wrap">
+          <div class="maps-block">
+            <h2>Studio Near Me</h2>
+            <p>Search for your professional by zip code:</p>
+            <form>
+              <input type="text" maxlength="5" placeholder="Five digit ZIP Code">
+              <button class="btn">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
+    
+    <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
