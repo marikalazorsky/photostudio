@@ -31,7 +31,7 @@ mapTypeId: google.maps.MapTypeId.ROADMAP,
 center: latLng
 };
  
-map = new google.maps.Map(document.getElementsByClassName('maps'),
+map = new google.maps.Map(document.getElementById('googlemaps'),
 mapOptions);
  
 // Show the default red marker at the location

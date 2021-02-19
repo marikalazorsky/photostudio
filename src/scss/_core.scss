@@ -8,6 +8,10 @@
   @include min-max(320px, 1560px, 0);
 }
 
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 .btn {
   display: flex;
   align-items: center;
@@ -15,7 +19,6 @@
   background-color: $red;
   color: $white;
   border: none;
-  font-family: "Poppins", sans-serif;
   font-size: 20px;
   line-height: 28px;
   border-radius: 4px;
@@ -25,12 +28,10 @@
 }
 
 p {
-  font-family: "Poppins", sans-serif;
   font-size: 18px;
 }
 
 h1 {
-  font-family: "Poppins", sans-serif;
   font-size: 70px;
   line-height: 80px;
   font-weight: 800;
@@ -39,14 +40,12 @@ h1 {
 }
 
 h2 {
-  font-family: "Poppins", sans-serif;
   font-size: 50px;
   line-height: 55px;
   font-weight: 600;
 }
 
 h3 {
-  font-family: "Poppins", sans-serif;
   font-size: 30px;
   line-height: 55px;
   font-weight: 600;
